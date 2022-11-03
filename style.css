@@ -1,0 +1,167 @@
+@media (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+    body{
+        background-color: rgb(31, 31, 31);
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: black;
+        color: #fff;
+    }
+    .logo{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+    ul,li{
+        list-style: 0;
+        display: flex;
+        align-items: center;
+        padding-left: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* block1 */
+
+    .block1{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    .box-img{
+        width: 300px;
+        height: 150px;
+        background-image: url('./students/Jafar.jpg');
+        background-size: cover;
+    }
+    .box-info{
+        width: 250px;
+        height: 150px;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .button-calc{
+        padding: 8px;
+        color: #fff;
+        border: 2px solid lawngreen;
+        background-color: transparent;
+        margin-top: 15px;
+    }
+    /* bloxk2 */
+    .block2{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    .box-img2{
+        width: 300px;
+        height: 150px;
+        background-image: url('./students/Damir.jpg');
+        background-size: cover;
+    }
+        /* bloxk3 */
+        .block3{
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px;
+        }
+        .box-img3{
+            width: 300px;
+            height: 150px;
+            background-image: url('./students/xojiakbar.jpg');
+            background-size: cover;
+        }
+            /* bloxk4 */
+    .block4{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    .box-img4{
+        width: 300px;
+        height: 150px;
+        background-image: url('./students/shoxruh.jpg');
+        background-size: cover;
+    }
+        /* bloxk5 */
+        .block5{
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px;
+        }
+        .box-img5{
+            width: 300px;
+            height: 150px;
+            background-image: url('./students/shavkat.jpg');
+            background-size: cover;
+        }
+            /* bloxk6 */
+    .block6{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    .box-img6{
+        width: 300px;
+        height: 150px;
+        background-image: url('./students/Davlat.jpg');
+        background-size: cover;
+        background-position: 0 -65px;
+    }
+        /* bloxk7 */
+        .block7{
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 15px;
+        }
+        .box-img7{
+            width: 300px;
+            height: 150px;
+            background-image: url('./students/sherzod-img.jpg');
+            background-size: cover;
+        }
+            /* bloxk8 */
+    .block8{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+    }
+    .box-img8{
+        width: 300px;
+        height: 150px;
+        background-image: url('./students/Ogabek.jpg');
+        background-size: cover;
+    }
+}
